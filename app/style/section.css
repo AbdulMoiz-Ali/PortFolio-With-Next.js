@@ -1,0 +1,14 @@
+.linehello {
+    width: 200px;
+    height: 3px;
+    background-color: white;
+    margin: 0px;
+}
+
+.lineproject {
+    width: 250px;
+    height: 3px;
+    background-color: #C778DD;
+    margin-left: 3px;
+    margin-top: 6px;
+}

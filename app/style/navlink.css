@@ -1,0 +1,161 @@
+/* styles.css or your global styles file */
+
+.underline-animation {
+    position: relative;
+    display: inline-block;
+}
+
+.underline-animation::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    /* Adjust to position the underline */
+    width: 100%;
+    height: 5px;
+    /* Height of the underline */
+    background-color: currentColor;
+    /* Matches the text color */
+    transform: scaleX(0);
+    /* Start hidden */
+    transition: transform 0.3s ease;
+    /* Animation */
+    color: #C778DD;
+}
+
+.underline-animation:hover::after {
+    transform: scaleX(1);
+    /* Show the underline on hover */
+}
+
+
+
+
+
+.icon {
+    cursor: pointer;
+    margin-left: 13px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+
+.line {
+    height: 200px;
+    width: 3px;
+    background-color: #C778DD;
+    margin-left: 28px;
+    margin-right: 20px;
+}
+
+.main-icon {
+    display: flex;
+    margin: 5px;
+}
+
+/* .icon>svg:hover {
+    box-shadow: 0 0 25px #C778DD;
+    z-index: 300;
+} */
+
+/* .icons>svg:focus {
+    box-shadow: 0 0 25px #C778DD;
+    z-index: 300;
+} */
+
+.icons {
+    cursor: pointer;
+    margin-left: 13px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.lines {
+    height: 3px;
+    width: 200px;
+    background-color: #C778DD;
+    margin: 0px;
+}
+
+.sidenav {
+    width: 5%;
+}
+
+.leftnav {
+    padding-left: 8%;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.stop,
+.stay {
+    transition: all .3s ease-out 0s !important;
+}
+
+.stay {
+    backdrop-filter: blur(18px) !important;
+    background-color: #1b1a2ea9 !important;
+    box-shadow: 0 10px 10px 0 rgba(9, 5, 29, .171) !important;
+}
+
+
+
+label {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    /* Reduced width */
+    cursor: pointer;
+}
+
+label span {
+    background: #fff;
+    border-radius: 10px;
+    height: 6px;
+    /* Reduced height */
+    margin: 5px 0;
+    /* Reduced margin */
+    transition: .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+span:nth-of-type(1) {
+    width: 40%;
+    /* Reduced width */
+}
+
+span:nth-of-type(2) {
+    width: 80%;
+    /* Reduced width */
+}
+
+span:nth-of-type(3) {
+    width: 60%;
+    /* Reduced width */
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked~span:nth-of-type(1) {
+    transform-origin: bottom;
+    transform: rotate(45deg) translate(6px, 0);
+    /* Adjusted translate */
+}
+
+input[type="checkbox"]:checked~span:nth-of-type(2) {
+    transform-origin: top;
+    transform: rotate(-45deg);
+}
+
+input[type="checkbox"]:checked~span:nth-of-type(3) {
+    transform-origin: bottom;
+    width: 40%;
+    /* Reduced width */
+    transform: translate(24px, -8px) rotate(45deg);
+    /* Adjusted translate */
+}
