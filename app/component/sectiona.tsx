@@ -15,12 +15,12 @@ function Sectiona() {
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
               I AM <span className="text-[#C778DD]">ABDUL MOIZ</span>
             </h1>
-            <h1 className="max-w-2xl mt-10 text-3xl font-mono mb-6 text-[#C778DD] mt-10 font-extrabold lg:mb-8 md:text-5xl">
+            <h1 className="max-w-2xl mt-10 text-1xl font-mono mb-6 text-[#C778DD] mt-10 font-extrabold lg:mb-8 md:text-5xl">
               <Typewriter />
             </h1>
             <Link
               href={"about"}
-              className="inline-flex items-center font-mono justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-[#C778DD] text-white"
+              className="inline-flex btn-linke items-center font-mono justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-[#C778DD] text-white"
             >
               Contact me  !!
             </Link>

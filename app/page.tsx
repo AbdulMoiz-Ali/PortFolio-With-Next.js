@@ -2,6 +2,8 @@ import React from "react";
 import "animate.css";
 import Sectiona from "./component/sectiona";
 import Sectionb from "./component/sectionb";
+import Sectionc from "./component/sectionc";
+import Footer from "./component/footer";
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
 
       <Sectiona />
       <Sectionb />
+      <Sectionc />
+      <Footer />
     </>
   );
 }

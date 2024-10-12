@@ -5,10 +5,40 @@
     margin: 0px;
 }
 
-.lineproject {
-    width: 250px;
+.lineprojects {
     height: 3px;
     background-color: #C778DD;
     margin-left: 3px;
     margin-top: 6px;
 }
+
+
+
+.havercard:hover {
+    /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(199, 120, 221, 0.5);
+    /* Shadow using #C778DD */
+    animation: pulse 2s infinite;
+    /* Font size */
+}
+
+/* Keyframes for the pulse animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.btn-linke:hover {
+    box-shadow: 0 4px 10px rgba(199, 120, 221, 0.5);
+}
+
