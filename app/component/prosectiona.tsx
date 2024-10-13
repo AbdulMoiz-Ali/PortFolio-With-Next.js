@@ -37,7 +37,7 @@ function Prosectiona() {
           />
            <Card
             img={pro14}
-            live={"protfolo"}
+            live={"https://port-folio-with-next-js-xsxg.vercel.app/"}
             code={"https://github.com/AbdulMoiz-Ali/PortFolio-With-Next.js"}
             title={"Portfolio"}
             description={
