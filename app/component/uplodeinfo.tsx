@@ -123,7 +123,7 @@ function Uplodeinfo({}: any) {
                       Message
                     </label>
                     <textarea
-                      rows="4"
+                      // rows="4"
                       // {...register("blogdescription")}
                       className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 bg-gray-700 border-gray-600 placeholder-gray-400 text-white"
                       placeholder="Write message here"
