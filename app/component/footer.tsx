@@ -4,7 +4,7 @@ import Typewriter from "./typewriter";
 function Footer() {
   return (
     <>
-      <footer className="bg-trasparent m-4">
+      <footer className="z-10 bg-trasparent m-4">
         <div className="w-full md:max-w-screen-xl md:mx-auto md:p-4 md:py-1">
           {/* <div className="sm:flex sm:items-center sm:justify-between">
             <a
@@ -59,7 +59,12 @@ function Footer() {
                 Media
               </h2>
               <div className="flex w-14 md:gap-2">
-                <div className="icon">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/AbdulMoiz-Ali"
+                  className="icon"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -88,8 +93,13 @@ function Footer() {
                       </g>
                     </g>
                   </svg>
-                </div>
-                <div className="icon">
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/abdul-moiz-ali-658861320/"
+                  className="icon"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -118,8 +128,13 @@ function Footer() {
                       </g>
                     </g>
                   </svg>
-                </div>
-                <div className="icon">
+                </a>
+                <a
+                  href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="icon"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -148,12 +163,14 @@ function Footer() {
                       </g>
                     </g>
                   </svg>
-                </div>
+                </a>
               </div>
             </div>
           </div>
 
-          <h1 className="text-base font-mono text-[#ABB2BF] text-center md:text-1xl">Made By Abdul MOiz</h1>
+          <h1 className="text-base font-mono text-[#ABB2BF] text-center md:text-1xl">
+            Made By Abdul MOiz
+          </h1>
         </div>
       </footer>
     </>

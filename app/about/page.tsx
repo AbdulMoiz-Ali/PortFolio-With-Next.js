@@ -1,6 +1,6 @@
-import Sectionc from "@/app/component/sectionc";
 import React from "react";
 import Aboutsec from "../component/aboutsec";
+import Aboutc from "../component/aboutc";
 
 function About() {
   return (
@@ -10,13 +10,13 @@ function About() {
       <br />
       <br />
       <br />
-      <h1 className="max-w-2xl font-mono ml-32 text-4xl font-light tracking-tight leading-none md:text-5xl xl:text-6xl">
+      <h1 className="z-10 max-w-2xl font-mono ml-32 text-4xl font-light tracking-tight leading-none md:text-5xl xl:text-6xl">
         <span className="text-[#C778DD]">/</span>about-me
       </h1>
-      <p className="font-mono pl-8 mt-3 ml-32 text-[#ABB2BF] text-1xl font-light">
-        Who am i?
+      <p className="z-10 font-mono pl-8 mt-3 ml-32 text-[#ABB2BF] text-1xl font-light">
+        Know Who I'M
       </p>
-      <Sectionc />
+      <Aboutc />
       <Aboutsec />
     </>
   );

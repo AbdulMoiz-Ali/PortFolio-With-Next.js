@@ -1,5 +1,5 @@
 import React from "react";
-import Prosectiona from "../component/prosectiona.tsx";
+import Prosectiona from "../component/prosectiona";
 
 function Project() {
   return (

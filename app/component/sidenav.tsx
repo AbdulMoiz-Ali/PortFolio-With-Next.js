@@ -8,7 +8,12 @@ const Sidenav = () => {
       className="fixed max-md:hidden flex flex-col sidenav g-10"
     >
       <div className="line"></div>
-      <div className="icon">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/AbdulMoiz-Ali"
+        className="icon"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -37,8 +42,13 @@ const Sidenav = () => {
             </g>
           </g>
         </svg>
-      </div>
-      <div className="icon">
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/abdul-moiz-ali-658861320/"
+        className="icon"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -67,8 +77,8 @@ const Sidenav = () => {
             </g>
           </g>
         </svg>
-      </div>
-      <div className="icon">
+      </a>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" rel="noopener noreferrer" className="icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -97,7 +107,7 @@ const Sidenav = () => {
             </g>
           </g>
         </svg>
-      </div>
+      </a>
     </div>
   );
 };

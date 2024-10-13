@@ -12,7 +12,7 @@ function Sectionb() {
     //   <span classNameName="linehello"></span>
     // </h1>
 
-    <section className="bg-trasparent">
+    <section className="z-10 bg-trasparent">
       <div className="py-8 px-10 mx-auto max-w-screen-xl lg:py-16 lg:px-20">
         <div className="flex justify-between w-full items-center mb-8 lg:mb-25">
           <div className="flex gap-4 items-center mb-8 lg:mb-25">

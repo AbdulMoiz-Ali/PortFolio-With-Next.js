@@ -1,11 +1,12 @@
 import Link from "next/link";
-import Typewriter from "./typewriter";
 import "@/app/style/section.css";
+import aboutlogo from "@/app/public/InShot_20241013_194738698.png"
+import Image from "next/image";
 
 function Sectionc() {
   return (
     <>
-      <section className="bg-trasparent">
+      <section className="z-10 bg-trasparent">
         <div className="grid max-w-screen-xl gap-50 px-10 md:px-20 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <div className="flex gap-4 items-center mb-8 lg:mb-25">
@@ -77,11 +78,8 @@ function Sectionc() {
               </svg>
             </Link>
           </div>
-          <div className="lg:mt-0 hidden lg:col-span-5 lg:flex">
-            <img
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
-              alt="mockup"
-            />
+          <div className="lg:mt-0 lg:ml-20 ml-20 mt-10 -z-5 lg:col-span-5 lg:flex">
+            <Image className="moizimg" src={aboutlogo} width={400} height={80} alt="moiz ali" />
           </div>
         </div>
       </section>

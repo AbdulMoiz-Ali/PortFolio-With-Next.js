@@ -1,4 +1,5 @@
 import React from "react";
+import Contacta from "../component/contacta";
 
 function Contacts() {
   return (
@@ -12,8 +13,9 @@ function Contacts() {
         <span className="text-[#C778DD]">/</span>Contacts
       </h1>
       <p className="font-mono pl-8 mt-3 ml-32 text-[#ABB2BF] text-1xl font-light">
-        Who am i?
+        Hirring Now
       </p>
+      <Contacta />
     </>
   );
 }

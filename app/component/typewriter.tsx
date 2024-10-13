@@ -57,6 +57,7 @@ const Typewriter = () => {
         whiteSpace: "pre",
         borderRight: "2px solid",
         display: "inline-block",
+        
       }}
     >
       {displayText}

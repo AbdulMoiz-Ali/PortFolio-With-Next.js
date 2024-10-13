@@ -4,7 +4,7 @@ import React from "react";
 function Card({ img, title, description, code, live, noneclass }: any) {
   return (
     <div
-      className={`${noneclass} havercard flex-col mx-auto max-w-lg text-center text-white border border-[#ABB2BF] shadow`}
+      className={`${noneclass} z-10 havercard flex-col mx-auto max-w-lg text-center text-white border border-[#ABB2BF] shadow`}
     >
       <Image src={img} alt={title} width={350} height={100} />
       <div className="border-stone-500 border-2 text-2xl border-solid border-[#ABB2BF] py-5 font-bold">
@@ -18,7 +18,7 @@ function Card({ img, title, description, code, live, noneclass }: any) {
           target="_blank"
           rel="noopener noreferrer"
           href={code}
-          className="text-white items-center gap-2 flex bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+          className="text-white items-center gap-2 flex bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-4 py-2.5 text-center me-2 mb-2"
         >
           <p>Code</p>
           <svg
@@ -43,7 +43,7 @@ function Card({ img, title, description, code, live, noneclass }: any) {
           href={live}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900"
+          className="flex items-center gap-2 text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900"
         >
           <p>Live</p>
           <svg
