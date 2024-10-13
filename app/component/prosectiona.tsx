@@ -13,6 +13,7 @@ import pro9 from "@/app/public/game.png";
 import pro11 from "@/app/public/saltnpaper.png";
 import pro12 from "@/app/public/startup figma.png";
 import pro13 from "@/app/public/otera figma.png";
+import pro14 from "@/app/public/portfolimg.png";
 
 function Prosectiona() {
   return (
@@ -31,6 +32,16 @@ function Prosectiona() {
             title={"Meme Maker App"}
             description={
               "Meme maker apps are great for creating custom memes! You can choose from popular templates, add text, and then download your creations."
+            }
+            noneclass={"flex"}
+          />
+           <Card
+            img={pro14}
+            live={"protfolo"}
+            code={"https://github.com/AbdulMoiz-Ali/PortFolio-With-Next.js"}
+            title={"Portfolio"}
+            description={
+              "This is my personal portfolio website with NEXT.js, created using HTML, CSS, JavaScript, Tailwind CSS, and Firebase.Showcase MY All Skill in this website."
             }
             noneclass={"flex"}
           />
