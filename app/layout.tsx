@@ -27,6 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html data-theme="dracula" lang="en">
+      <title>Abdul Moiz | Portfolio</title>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

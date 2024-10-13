@@ -1,9 +1,13 @@
 import React from "react";
 import Contacta from "../component/contacta";
+import Head from "next/head";
 
 function Contacts() {
   return (
     <>
+      <Head>
+        <title>Abdul Moiz | Portfolio</title>
+      </Head>
       <br />
       <br />
       <br />

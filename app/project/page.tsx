@@ -1,9 +1,13 @@
 import React from "react";
 import Prosectiona from "../component/prosectiona";
+import Head from "next/head";
 
 function Project() {
   return (
     <>
+      <Head>
+        <title>Abdul Moiz | Portfolio</title>
+      </Head>
       <br />
       <br />
       <br />

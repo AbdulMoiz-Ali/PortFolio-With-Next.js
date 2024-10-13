@@ -3,10 +3,14 @@ import "animate.css";
 import Sectiona from "./component/sectiona";
 import Sectionb from "./component/sectionb";
 import Sectionc from "./component/sectionc";
+import Head from "next/head";
 
 function Home() {
   return (
     <>
+      <Head>
+        <title>Abdul Moiz | Portfolio</title>
+      </Head>
       <br />
       <br />
       <br />

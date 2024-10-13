@@ -1,6 +1,7 @@
 import React from "react";
 import Aboutsec from "../component/aboutsec";
 import Aboutc from "../component/aboutc";
+import Head from "next/head";
 
 function About() {
   return (
@@ -10,6 +11,9 @@ function About() {
       <br />
       <br />
       <br />
+      <Head>
+        <title>Abdul Moiz | Portfolio</title>
+      </Head>
       <h1 className="z-10 max-w-2xl font-mono ml-32 text-4xl font-light tracking-tight leading-none md:text-5xl xl:text-6xl">
         <span className="text-[#C778DD]">/</span>about-me
       </h1>
