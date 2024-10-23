@@ -44,8 +44,8 @@ function Footer() {
             </ul>
           </div> */}
           <hr className="my-6 sm:mx-auto border-[#ABB2BF] lg:my-8" />
-          <div className="flex justify-between max-w-screen-xl px-5 md:px-20 py-4 mx-auto lg:py-2">
-            <div className="flex flex-col">
+          <div className="flex flex-col justify-center items-center md:flex-row md:justify-between max-w-screen-xl px-5 md:px-20 py-4 mx-auto lg:py-2">
+            <div className="flex md:items-start md:justify-normal items-center justify-center md:jus mb-10 md:mb-0 flex-col">
               <h2 className="mb-6 text-2xl font-mono font-light text-white">
                 Abdul Moiz
               </h2>
@@ -54,11 +54,11 @@ function Footer() {
               </h1>
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex items-center justify-center flex-col">
               <h2 className="mb-4 ml-3 text-2xl font-mono font-light text-white">
                 Media
               </h2>
-              <div className="flex w-14 md:gap-2">
+              <div className="flex w-4 items-center justify-center md:w-14 md:gap-2">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

@@ -41,7 +41,7 @@ function Aboutc() {
               enhance my skills.
             </p>
           </div>
-          <div className="lg:mt-0 lg:ml-20 ml-20 mt-10 -z-5 lg:col-span-5 lg:flex">
+          <div className="lg:mt-0 lg:ml-20 ml-20 mt-10 -z-5 lg:col-span-5 hidden md:flex">
             <Image
               className="moizimg"
               src={aboutlogo}

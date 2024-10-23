@@ -78,7 +78,7 @@ function Sectionc() {
               </svg>
             </Link>
           </div>
-          <div className="lg:mt-0 lg:ml-20 ml-20 mt-10 -z-5 lg:col-span-5 lg:flex">
+          <div className="lg:mt-0 lg:ml-20 hidden ml-20 mt-10 -z-5 lg:col-span-5 md:flex">
             <Image className="moizimg" src={aboutlogo} width={400} height={80} alt="moiz ali" />
           </div>
         </div>

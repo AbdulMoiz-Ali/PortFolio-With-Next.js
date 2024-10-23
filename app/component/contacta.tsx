@@ -22,7 +22,7 @@ function Contacta() {
               </h1>
             </div>
 
-            <h1 className="max-w-2xl mt-20 text-1xl font-mono mb-6 text-[#ABB2BF] font-bold lg:mb-8 md:text-2xl">
+            <h1 className="max-w-2xl mt-4 md:mt-20 text-1xl font-mono mb-6 text-[#ABB2BF] font-bold lg:mb-8 md:text-2xl">
               I’d love to hear from you! Whether you have a question or want to
               collaborate on a project, feel free to reach out.
             </h1>
